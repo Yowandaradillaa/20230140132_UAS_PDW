@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Admin - SIMPRAK</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans flex items-center justify-center min-h-screen">
+
+  <div class="bg-white p-8 rounded shadow-md w-full max-w-md">
+    <h2 class="text-2xl font-bold text-center text-blue-600 mb-6">Login Admin</h2>
+
+    <!-- Form Login -->
+    <form action="index.html" method="POST" class="space-y-4">
+      <div>
+        <label class="block mb-1 text-gray-700" for="email">Email</label>
+        <input type="email" name="email" id="email" required class="w-full p-2 border border-gray-300 rounded" />
+      </div>
+
+      <div>
+        <label class="block mb-1 text-gray-700" for="password">Password</label>
+        <input type="password" name="password" id="password" required class="w-full p-2 border border-gray-300 rounded" />
+      </div>
+
+      <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">
+        Login
+      </button>
+    </form>
+
+    <!-- Link Tambahan -->
+    <div class="mt-4 text-sm text-center">
+      <p>Belum punya akun admin?</p>
+      <a href="register_admin.html" class="text-green-600 hover:underline">Daftar sebagai Admin</a>
+    </div>
+
+    <p class="text-sm text-center text-gray-500 mt-6">
+      Kembali ke <a href="index.html" class="text-blue-600 hover:underline">Beranda</a>
+    </p>
+  </div>
+
+</body>
+</html>

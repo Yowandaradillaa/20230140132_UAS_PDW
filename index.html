@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIMPRAK - Sistem Informasi Praktikum</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">SIMPRAK</h1>
+      <nav class="space-x-4">
+        <a href="login.php?role=mahasiswa" class="text-gray-700 hover:text-blue-600 font-medium">Login Mahasiswa</a>
+        <a href="login.php?role=asisten" class="text-gray-700 hover:text-green-600 font-medium">Login Asisten</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-500 to-cyan-400 text-white py-24 px-6 text-center">
+    <h2 class="text-4xl font-bold mb-4">Selamat Datang di SIMPRAK</h2>
+    <p class="text-lg opacity-90">Platform praktikum modern untuk mahasiswa & asisten dosen.</p>
+  </section>
+
+  <!-- Fitur Utama -->
+  <section class="container mx-auto px-4 py-16">
+    <h3 class="text-3xl font-bold text-center text-gray-800 mb-12">Fitur Unggulan SIMPRAK</h3>
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <div class="text-4xl mb-4 text-blue-500">📚</div>
+        <h4 class="text-xl font-semibold mb-2">Manajemen Tugas</h4>
+        <p class="text-gray-600">Upload dan pantau tugas praktikum dengan mudah dan cepat.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <div class="text-4xl mb-4 text-green-500">👨‍🏫</div>
+        <h4 class="text-xl font-semibold mb-2">Peran Ganda</h4>
+        <p class="text-gray-600">Login sebagai mahasiswa atau asisten dalam satu sistem terintegrasi.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <div class="text-4xl mb-4 text-yellow-500">⏰</div>
+        <h4 class="text-xl font-semibold mb-2">Notifikasi & Deadline</h4>
+        <p class="text-gray-600">Dapatkan pengingat otomatis untuk tugas yang mendekati tenggat waktu.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-300 py-6 text-center text-sm">
+    &copy; 2025 SIMPRAK - Sistem Informasi Praktikum. All rights reserved.
+  </footer>
+
+</body>
+</html>
